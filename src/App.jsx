@@ -1,6 +1,6 @@
 import './App.scss'
 import { useContext } from 'react';
-import Candidate from './components/candidate/Candidate'
+import Candidate from './components/Candidate/Candidate'
 import { CountContext } from './store/CountContext'
 import TotalVotes from './components/TotalVotes/TotalVotes';
 import Filter from './components/Filter/Filter';
