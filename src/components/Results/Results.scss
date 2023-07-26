@@ -1,0 +1,33 @@
+.results{
+  border: 1px solid;
+  border-color:#CCD1D1;
+  border-radius: 20px;
+  padding: 1rem 1rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+
+  &__title{
+    font-weight: bold;
+    color:#1B4F72;
+  }
+  .visible{
+    display: flex;
+    font-size: 14px;
+    gap: 5px;
+    padding-top: 0.5rem;
+  }
+  
+  .novisible{
+    display: none;
+  }
+}
+
+@media (min-width:1024px) {
+  .results{
+    padding-right: 5rem;
+  }
+  
+}
+
+

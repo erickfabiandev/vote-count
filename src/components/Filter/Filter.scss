@@ -1,0 +1,46 @@
+@use '../../style/variables.scss';
+.filter{
+  border: 1px solid;
+  border-color:#CCD1D1;
+  border-radius: 20px;
+  padding: 1rem 1rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  &__title{    
+    font-weight: bold;
+    color:#1B4F72;
+  }
+  &__form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    gap: 10px;
+    &--datatype, &--candidate{
+      display: flex;
+      border: 1px solid #CCD1D1;
+      padding: 0.5rem;
+      border-radius: 5px;
+      gap: 5px;
+      #selectCandidate{
+        font-size: 14px;
+        font-family: variables.$font-poppins;
+      }
+    }
+    &--button{
+      background-color: variables.$color-sky-blue ;
+      width: 100px;
+      height: 50px;
+      color: variables.$color-white;
+      border-radius: 10px;
+    }
+  }
+}
+
+@media (min-width:1024px) {
+  .filter{
+
+  }  
+}

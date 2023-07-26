@@ -1,0 +1,40 @@
+@use '../../style/variables.scss';
+
+.candidate{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  &__img{
+    width: 120px;
+    height: 120px;
+  }  
+  &__name{
+    font-weight: bold;
+    color: variables.$color-blue ;
+  }
+  &--button{
+    font-family: variables.$font-poppins;
+    font-weight: bold;
+    background-color: variables.$color-sky-blue;
+    color:variables.$color-white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px;
+    &:hover{
+      cursor: pointer;
+      background-color: variables.$color-sky-blue-2;
+      color:black;
+    }
+  }
+}
+@media (min-width:1024px) {
+  .candidate{
+    &__img{
+      width: 160px;
+      height: 160px;
+    }
+
+  }
+}
