@@ -12,7 +12,7 @@ const Candidate = ({id, name, img}) => {
 
   return (
     <div className='candidate'>
-      <img className='candidate__img'src={img}/>
+      <img className='candidate__img'src={img} alt={`img${id}`}/>
       <p className='candidate__name'>{name}</p>
       <button className='candidate--button' onClick={onChange}>VOTAR</button>
     </div>
