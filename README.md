@@ -44,11 +44,11 @@ The main challenge of this project was to create a voting system that allowed us
 Here is a screenshot of the project's interface:
 
 ***desktop view***
-![desktop](./assets/image.png)
+![desktop](./src/assets/image.png)
 
 ***mobile view***
 
-![mobile](./assets/image1.png)
+![mobile](./src/assets/image1.png)
 
 
 
